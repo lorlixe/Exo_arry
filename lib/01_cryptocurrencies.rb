@@ -114,13 +114,18 @@ end
 	
 def perform
 	currencies
-    puts "====La ou les crypto qui ont la plus grosse valeur===="
-    grosse_valeur
-    puts "====Les devises dont le cours est inférieur à 6000==="
-    la_plus_petit
-    puts "====La devise la plus chère parmi celles dont le cours est inférieur à 6000.==="
+	gets
+   	puts "====La ou les crypto qui ont la plus grosse valeur===="
+	gets
+    	grosse_valeur
+    	puts "====Les devises dont le cours est inférieur à 6000==="
+	gets
+   	la_plus_petit
+    	puts "====La devise la plus chère parmi celles dont le cours est inférieur à 6000.==="
+	gets
 	inferieur
 	puts "====La devise la plus chère parmi celles dont le cours est inférieur à 6000.==="
+	gets
 	devise_chère
 
 end
