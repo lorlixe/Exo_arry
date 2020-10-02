@@ -106,19 +106,25 @@ end
 def perform
 	puts "==Combien y a-t-il de handle dans cette array ==?"
 	longueur
-
+	gets
 	puts "==Q'uel est le handle le plus court de cette liste== ?"
 	le_plus_petit
+	gets
 	puts "==Combien y-a-t'il de handle contenant 5 caractères=="
 	caractères
+	gets
 	puts "==Combien commencent par une majuscule=="
 	majuscule
+	gets
 	puts "==Trie la liste de handle par ordre alphabétique.=="
 	alphabetique
+	gets
 	puts "==Trie la liste de handle par taille des handle=="
 	croissant
+	gets
 	puts "==Quelle est la position dans l'array de la personne @epenser ?=="
 	epenser
+	gets
 	puts "==Sors-moi une répartition des handle par taille de ces derniers=="
 	répartition
 end
